@@ -5,4 +5,4 @@
 #SBATCH --output=pi.out
 
 module load julia
-srun julia pi_montecarlo.jl
+srun julia code/pi_montecarlo.jl
